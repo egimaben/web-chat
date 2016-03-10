@@ -86,8 +86,9 @@ $(function(){
 Embed this code into you test website i.e. within the html. If you are using blogger like me, you just open the layout editor, add a new widget and choose the javascript/html option of the dialog that pops out. There must be a similar option with wordpress.
 We are done with the little we had to do outside java(android), now we can get back home.
 I placed this widget in my blog, checkout how it looks:
+<p>&nbsp;</p>
 <img class="center-img" alt="Chat widget" src="https://blog.cloudboost.io/content/images/2016/03/chatwidgetreal.PNG">
-
+<p>&nbsp;</p>
 #The App
 Create a new Android application called WebChat, and create a new package called io.cloudboost.webchat.
 #ChatBubbleActivity
@@ -399,6 +400,8 @@ public class ChatMessage {
 		this.message = message;
 	}
 }
+```
+</span>
 #activity_chat.xml
 As we can see above, the ChatBubbleActivity is inflating activity_chat.xml, so we shall also create it inside res/layout folder of the android project
 ==xml==
@@ -518,7 +521,7 @@ Here too, is the manifest file for our project, don’t forget to request intern
 </manifest>
 ```
 </span>
-
+<p>&nbsp;</p>
 After running in the emulator, this is how the chat app looks before any activity:
 <p>&nbsp;</p>
 <img class="center-img" alt="Chat app" src="https://blog.cloudboost.io/content/images/2016/03/chatapp.PNG">
